@@ -6,7 +6,7 @@ To ease the transition from developing an ion guide concept, simulation, and its
 
 The python generated image below is taken directly from the jupyter notebook that allows the user define the starting position and splat points for the SIMION simulation.
 
-<center><img src="TetraLayout.png" width=1600 height=400 /></center>
+<center><img src="TetraLayout.png" width=2000 height=400 /></center>
 
 These research products were developed with the support of the [NIGMS](https://www.nigms.nih.gov/) R01-GM140129
 
