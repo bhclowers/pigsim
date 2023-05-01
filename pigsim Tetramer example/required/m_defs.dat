@@ -1,0 +1,59 @@
+
+;holds key diffusion and mobility parameters keyed to mass
+;mass (amu), diameter (nm), Ko reduced mobility (10-4 m2 V-1 s-1)
+;Note:	1. THERE MUST ALWAYS BE THREE NUMBERS ON EACH LINE (M,D,Ko in that order)
+;	   190,0.69,1.36	; legal
+;	2. First line with mass = 0 ends list reading (e.g. 0,0.69,1.36)
+;	   0,0,0			; legal list termination
+;	3. Two lines with same Mass will cause a fatal error
+;	   190,0.69,1.36	; legal
+;	   190,0.85,1.75	; masses match -- fatal error
+;	4. If both d and Ko are 0 --- fatal error
+;	   190,0,0		; d = 0 Ko = 0 --- fatal error
+;	5. d or Ko can be zero, but not both (be sure to use zeros -- don't skip entry)
+;	   190,0.69,0		; d = 0.69 Ko = 0 --- OK
+;	   190,0,1.36		; d = 0 Ko = 1.36 --- OK
+;	6. Note: If you do not provide a mass def for an ion the user program will
+;	   will estimate one for you.
+
+;	7. Blank lines are allowed
+;	8. ; character starts comment: either line or inline
+
+	   ; File has two sample mass definitions below
+190,0.69,1.36			; avg positive ion in atmosphere
+130,0.61,1.56			; avg negative ion in atmosphere
+322,0,1.36
+556,0.99,1.166 
+622,0,1.015			; default mobility value of 622 is 1.015
+922,0,0.841
+923,0,0.969
+927,0,0.965
+931,0,0.960
+960,0,0.931
+1222,0,0.72
+1522,0,0.643
+1822,0,0.579
+2122,0,0.531
+2422,0,0.493
+2722,0,0.461
+490,0,1.40
+491,0,1.42
+62,0,2.46
+195,0,1.54
+700,0,1.17
+663,0,0.85			; same CS as 1222
+311,0,1.015			; hypothetical ion with same mobility as 622
+312,0,1.015	
+314,0,1.015	
+318,0,1.015	
+328,0,1.015	
+559.8,0,1.015
+497.6,0,1.015
+435.4,0,1.015
+373.2,0,1.015
+684.2,0,1.015
+768.9,0,0.992
+645.33,0,4.2		; this is a fragment of Fibrinopeptide A (ref. A Tolmachev). The reduced mob value is assumed
+952.1,0.39,0		; Ubiquitin 9+. Arrhenius factors 1.2 eV and 10 e12 per sec.
+1071,0.34,0		; Ubiquitin 8+ Arrhenius factors 1.2 and 10 e12 per sec.
+354.19,0,1.13		; Bradykinin [M+3H]3+ ions. Ref. HH Hill, Rapid Commun.Mass.Spectrom. 2007; 21: 1115-1122 (taken average of measured and lit values)

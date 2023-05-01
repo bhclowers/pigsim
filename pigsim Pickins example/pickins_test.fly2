@@ -1,0 +1,6 @@
+particles { coordinates = 0, standard_beam {n = 30, tob =0, mass = 322, charge = 1, cwf = 1, color = 0, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) },
+standard_beam {n = 30, tob =0, mass = 622, charge = 1, cwf = 1, color = 1, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) },
+standard_beam {n = 30, tob =0, mass = 922, charge = 1, cwf = 1, color = 2, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) },
+standard_beam {n = 30, tob =0, mass = 1222, charge = 1, cwf = 1, color = 3, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) },
+standard_beam {n = 30, tob =0, mass = 1522, charge = 1, cwf = 1, color = 4, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) },
+standard_beam {n = 30, tob =0, mass = 1822, charge = 1, cwf = 1, color = 5, direction = vector(1, 0, 0), position = vector(6.1341, 6.1468, 0) } }
